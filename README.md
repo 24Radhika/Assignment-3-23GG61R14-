@@ -25,4 +25,10 @@ This Python program converts a Roman numeral string to an integer. It iterates t
 
 The Python program checks if an integer 'x' is a palindrome. It converts 'x' to a string, calculates its length, and determines the middle index. It then compares characters from the start and end of the string towards the middle. If any pair of characters doesn't match, it returns False. Otherwise, it returns True, indicating 'x' is a palindrome.
 
-## 
+## Length of longest substring
+
+The Python program finds the length of the longest substring without repeating characters in a given string 's'. It uses two pointers ('a_pointer' and 'b_pointer') to define the current substring. While iterating through the string, it maintains a set ('hash_set') to keep track of unique characters in the current substring.
+
+If a character at 'b_pointer' is not in the set, it's added to the set, and 'b_pointer' moves forward. The maximum length of the unique substring is updated.
+If the character is already in the set, it removes the character at 'a_pointer' from the set, and 'a_pointer' moves forward.
+The function returns the maximum length of a substring without repeating characters.
