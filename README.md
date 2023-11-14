@@ -16,3 +16,7 @@ Importing Libraries.
 Writing an integration equation and plotting it
 Plotting Laplace Solution equation
 Plotting Spring-mass dampering system
+
+## Converting Roman to Integer Program
+
+This Python program converts a Roman numeral string to an integer. It iterates through the Roman numeral characters in reverse, assigning their numeric values to 'num'. If 'num' is less than four times the accumulated value 'ans', it implies a subtraction case (e.g., IV for 4). In such cases, 'num' is subtracted from 'ans'; otherwise, 'num' is added to 'ans'. The final accumulated value is returned.
