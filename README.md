@@ -17,6 +17,12 @@ Writing an integration equation and plotting it
 Plotting Laplace Solution equation
 Plotting Spring-mass dampering system
 
-## Converting Roman to Integer Program
+## Converting Roman to Binary Program
 
 This Python program converts a Roman numeral string to an integer. It iterates through the Roman numeral characters in reverse, assigning their numeric values to 'num'. If 'num' is less than four times the accumulated value 'ans', it implies a subtraction case (e.g., IV for 4). In such cases, 'num' is subtracted from 'ans'; otherwise, 'num' is added to 'ans'. The final accumulated value is returned.
+
+## Palindrome Program
+
+The Python program checks if an integer 'x' is a palindrome. It converts 'x' to a string, calculates its length, and determines the middle index. It then compares characters from the start and end of the string towards the middle. If any pair of characters doesn't match, it returns False. Otherwise, it returns True, indicating 'x' is a palindrome.
+
+## 
